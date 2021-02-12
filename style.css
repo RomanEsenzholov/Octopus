@@ -2,6 +2,23 @@
 * {box-sizing:border-box}
 
 /* Container for skill bars */
+.help {
+    margin: auto;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    border: 1px solid black;
+}
+
+.skillshelp {
+
+}
+
+.blue {background-color: #279FB0;}
+.orange {background-color: #d97e23;}
 .container {
     width: 500px;
     background-color: #8f8c89;
@@ -13,7 +30,7 @@
     border-right: solid 2px black;
     border-top: solid 2px black;
     border-bottom: solid 2px black;
-        border-radius: 0px 10px 10px 0;
+    border-radius: 0px 10px 10px 0;
 }
 
 .skills:hover {
@@ -21,6 +38,7 @@
   -ms-ransform: scale(1.05);
   transform: scale(1.05);
   transition: .5s;
+  line-height: 40px;
 
 }
 
@@ -30,15 +48,26 @@
     line-height: 40px;
     color: white;
     background-color: #279FB0;
-    line-height: 40px;
 }
 
 .html {width: 47%;}
 .css {width: 43%;}
-.photoshop {width: 74%;}
-.photography {width: 69%;}
-.english {width: 35%;}
-.creation {width: 75%;}
+.photoshop {width: 90%;}
+.photography {width: 90%;}
+.english {width: 70%;}
+.creation {width: 95%;}
+.js {width: 70%; background-color: #d97e23;}
+.ruby {width: 63%; background-color: #d97e23;}
+.futurehtml {width: 95%;}
+.futurecss {width: 99%;}
+.futurephotoshop {width: 80%;}
+.futurephotography {width: 70%;}
+.futureenglish {width: 60%;}
+.futurecreation {width: 80%;}
+
+.future {
+    background-color: #d97e23;
+}
 
 .radius {
     width: 232px;
@@ -74,4 +103,3 @@ H2 {
     font-size: 32.7px;
 }
 
-/*     border-radius: 100% 0 0 100% / 50% 0 0 50%;
