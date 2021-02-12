@@ -56,8 +56,8 @@
 .photography {width: 90%;}
 .english {width: 70%;}
 .creation {width: 95%;}
-.js {width: 30%; background-color: #d97e23;}
-.ruby {width: 25%; background-color: #d97e23;}
+.js {line-height: 40px; width: 30%; background-color: #d97e23;}
+.ruby {line-height: 40px; width: 25%; background-color: #d97e23;}
 .futurehtml {width: 95%;}
 .futurecss {width: 99%;}
 .futurephotoshop {width: 80%;}
