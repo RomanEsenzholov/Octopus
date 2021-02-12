@@ -1,7 +1,3 @@
-/* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
-
-/* Container for skill bars */
 .help {
     margin: auto;
     margin-top: 10px;
